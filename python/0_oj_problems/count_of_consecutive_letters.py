@@ -18,7 +18,7 @@ print(answer)
 
 # for loops
 answer = ""
-i = 0
+# i = 0
 for i in range(len(string)):
     count = 0
 
