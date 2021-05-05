@@ -14,3 +14,4 @@ elif number == "5":
     print("Friday")
 elif number == "6":
     print("Saturday")
+

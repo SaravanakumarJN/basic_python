@@ -6,3 +6,4 @@ for i in array:
         odd_sum += i
 
 print(odd_sum)
+

@@ -8,3 +8,4 @@ elif number%5 == 0:
     print("School")
 else:
     print("Hurray!")
+    

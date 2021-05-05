@@ -1,3 +1,5 @@
+import math
+
 a, c, b = input().split()
 a = int(a)
 b = int(b)
@@ -9,4 +11,4 @@ elif c == "-":
 elif c == "*":
     print(a * b)
 else:
-    print(a / b)
+    print(math.floor(a / b))

@@ -21,3 +21,4 @@ for i in array:
     else:
         print("Not Prime")
 
+

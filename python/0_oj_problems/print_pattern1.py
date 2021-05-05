@@ -10,3 +10,4 @@ for i in range (input):
         else:
             string += " "
     print(string)
+    

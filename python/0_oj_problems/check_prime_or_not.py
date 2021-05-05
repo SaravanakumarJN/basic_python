@@ -15,3 +15,4 @@ def is_prime(num):
 
 prime_or_not = is_prime(5)
 print(prime_or_not)
+

@@ -6,3 +6,5 @@ elif eng > aus:
     print("England")
 else:
     print("Tie")
+
+    

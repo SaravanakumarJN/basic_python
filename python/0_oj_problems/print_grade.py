@@ -8,3 +8,4 @@ elif marks >= 80:
     print("C")
 else:
     print("F")
+    

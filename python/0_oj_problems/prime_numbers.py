@@ -9,3 +9,4 @@ for i in range(2, input):
 
 if flag:
     print("Yes")
+    

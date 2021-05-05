@@ -6,3 +6,4 @@ if fuel_consumed > 50:
 else:
     print("Go On")
 
+
