@@ -26,7 +26,7 @@ function()
 print(name)
 
 
-# multiple arguments in functions
+# multiple arguments in functions as list
 def function(*args):
     for i in args:
         print(i)
@@ -36,6 +36,13 @@ def function(*args):
 
 function(1, 2, 3, 4, 5)
 
+
+# multiple arguments in functions as key value pairs / dictionary
+def function(**args):
+    for i in args:
+        print(i, args[i])
+
+function(name = "Saravana", age = "22")
 
 
 
