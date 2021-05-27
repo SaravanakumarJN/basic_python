@@ -1,4 +1,4 @@
-# Tuples
+# Tuples [Note : strictly immutable]
 
 # initialise tuple
 tuple1 = ("a", "b", "a", "c", "d")

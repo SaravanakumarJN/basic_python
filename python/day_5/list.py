@@ -1,7 +1,7 @@
 # list/array
 
 ## initialise list
-list = [1, 2, 99]
+list = [1, 2, 99, 30, 20, 50]
 
 ## get the length of list
 length = len(list)
@@ -16,8 +16,16 @@ print(list)
 list.insert(1, 99)      # .insert(index, element)
 print(list)
 
-## remove element from end
+## remove an element with element itself
+list.remove(99)         # .remove(element)  [Note : removes the first occurence]
+print(list)
+
+## remove last element
 list.pop()
+print(list)
+
+## remove element with index
+list.pop(0)             # .pop(index)
 print(list)
 
 ## find the index of element 
@@ -40,3 +48,9 @@ print(array2)
 array1.extend(array2)
 print(array1)
 print(array2)
+
+## sorting a list [Note : manipulate the original array]
+list.sort()
+
+## reversing a list [Note : manipulate the original array]
+list.reverse()

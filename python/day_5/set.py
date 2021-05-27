@@ -1,4 +1,4 @@
-# set (can contain only distinct element)
+# set (can contain only distinct element) [Note : unordered]
 
 ## initialise set 
 set1 = { 2, 3, 1, 3, 4, 2, 1}         # stores only distinct element
@@ -6,9 +6,14 @@ print(set1)
 
 
 ## add element to end of set
+### 1 using add
 set2 = set()
 set2.add(1)
 set2.add(2)
+print(set2)
+
+### 2 using update [Note : used to multiple element in one go. So takes a array as input]
+set2.update([1, 2, 3, 4])
 print(set2)
 
 

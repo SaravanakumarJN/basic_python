@@ -1,4 +1,4 @@
-# dictionary / object
+# dictionary / object  [Note : unordered]
 
 
 ## initialise dictonary
@@ -14,7 +14,7 @@ object1 = {
 print(object1["name"])
 
 ### 2   (doesn't throw error if the key is not present instead returns "none")
-print(object1.get("address"))
+print(object1.get("address"))   # [Note : we can also give default values, if it's None it will give the default value]
 
 
 ## get length of dictionary
@@ -60,6 +60,10 @@ else:
 
 if "state" not in object1:
     print("Not available")
+
+
+## get list of tuples of all keys and values (key, value) 
+print(object1.items())
 
 
 ## iterating through dictionary
