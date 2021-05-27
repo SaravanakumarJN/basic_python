@@ -1,0 +1,19 @@
+# Primitive  =>  built in data structures provided by the language
+
+- integer
+- float
+- string
+- boolean
+- array
+
+
+
+# Abstract  =>  user defined data structures built upon primitive data structures
+
+- key value pairs
+- stack
+- queue
+- linked list
+- set
+- tree
+- trie
